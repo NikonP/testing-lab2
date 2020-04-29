@@ -1,0 +1,10 @@
+dist: trusty
+
+language:
+  - cpp
+
+script:
+  - make
+
+notifications:
+  email: false
