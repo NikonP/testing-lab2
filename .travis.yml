@@ -12,7 +12,7 @@ addons:
     token: $SONAR_TOKEN
   apt:
     packages:
-      - libssl1.1
+      - libssl1.0.0
 
 script:
   - qmake
