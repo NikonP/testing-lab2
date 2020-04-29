@@ -4,6 +4,7 @@ language:
   - cpp
 
 script:
+  - ls
   - make
 
 notifications:
