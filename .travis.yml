@@ -10,6 +10,9 @@ addons:
   sonarcloud:
     organization: "nikonp"
     token: $SONAR_TOKEN
+  apt:
+    packages:
+      - libssl1.1
 
 script:
   - qmake
