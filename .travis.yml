@@ -6,6 +6,7 @@ language:
 script:
   - qmake
   - make
+  - ./tests/tests
 
 notifications:
   email: false
