@@ -4,7 +4,7 @@ language:
   - cpp
 
 script:
-  - ls
+  - qmake
   - make
 
 notifications:
